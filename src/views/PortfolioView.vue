@@ -1,6 +1,8 @@
 <template>
   <div class="home bg-mycolor-100">
+
     <SpecialNavBar />
+
     <div class="HeroSection ">
       <div class="h-auto">
         <p class="text-white text-3xl font-bold mx-12 my-10">I'm a</p>
@@ -19,7 +21,6 @@
             View Resume
         </button>
       </div>
-     
     </div>
     
     <p class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">About Me</p>
@@ -60,18 +61,112 @@
 
       </div>
     </div>
-    
+
+    <div 
+    class="flex flex-col">
+    <p 
+    class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">
+      EXPERIENCE
+    </p>
+    <div 
+    class="grid m-4 grid-col-2 md:grid-cols-4 gap-4">
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/aws.svg" alt="">
+        <SpecialCard msg="AWS"/>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/azure.svg" alt="">
+        <SpecialCard msg="AZURE"/>
+        <p class="font-bold text-center text-xl text-white">
+          Azure
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/js.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          JAVASCRIPT
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/python.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          PYTHON
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/react.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          REACT
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/nodejs.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          NODEJS
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/css3.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          CSS 3
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/html5.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          HTML 5
+        </p>
+      </div>
+      <div 
+      class="flex flex-col">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/bootstrap.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          BOOTSTRAP
+        </p>
+      </div>
+
+    </div>
+
+    </div> 
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import SpecialNavBar from '@/components/SpecialNavBar.vue'
+import SpecialCard from '@/components/SpecialCard.vue'
 
 export default {
   name: 'PortfolioView',
   components: {
-    SpecialNavBar
+    SpecialNavBar,
+    SpecialCard,
   },
 
 }
