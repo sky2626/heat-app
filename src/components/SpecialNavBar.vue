@@ -24,8 +24,7 @@
       <router-link to="/" class="block px-8 py-3 text-xl text-white font-semibold rounded hover:bg-blue-400 md:mt-0 md:ml-2">Portfolio</router-link>
       <router-link to="/portifolio" class="mt-1 block px-8 py-3 text-xl text-white font-semibold rounded hover:bg-blue-400 md:mt-0 md:ml-2 sm:mt-0 sm:ml-2">Projects</router-link>
       <a href="#" class="mt-1 block px-8 py-3 text-xl text-white font-semibold rounded hover:bg-blue-400  md:mt-0 md:ml-2 sm:mt-0 sm:ml-2" >Experiences</a>
-      <router-link to="/portifolio" class="mt-1 block px-8 py-3 text-xl text-white font-semibold rounded hover:bg-blue-400 md:mt-0 md:ml-2 sm:mt-0 sm:ml-2">Contact</router-link>
-      
+      <router-link to="/portifolio" class="mt-1 block px-8 py-3 text-xl text-white font-semibold rounded hover:bg-blue-400 md:mt-0 md:ml-2 sm:mt-0 sm:ml-2">Contact</router-link> 
     </nav>
   </header>
 
