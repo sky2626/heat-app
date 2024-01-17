@@ -160,6 +160,15 @@
           BOOTSTRAP
         </p>
       </div>
+      <div 
+      class="flex flex-wrap flex-col mb-4">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/tailwind-css.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          TAILWIND CSS
+        </p>
+      </div>
     </div>
 
     <div>
@@ -180,9 +189,9 @@
             Let me know what I can help you with. Keep it simple and clear please.
           </p>
           <div
-          class=" text-white mb-6 flex flex-col">
-            <img src="" alt="">
-            <p>+233 546 383 716</p>
+          class=" text-white mb-6 flex flex-row">
+            <img class="h-10 w-10" src="@/assets/call.png" alt="">
+            <a href="tel:+233546383716">+233-546-383-716</a>
           </div>
         </div>
 
