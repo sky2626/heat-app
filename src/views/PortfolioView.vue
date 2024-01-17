@@ -69,26 +69,27 @@
       EXPERIENCE
     </p>
     <div 
-    class="grid m-4 grid-col-2 md:grid-cols-4 gap-4">
+    class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/aws.svg" alt="">
-        <SpecialCard msg="AWS"/>
-      </div>
-      <div 
-      class="flex flex-col">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/azure.svg" alt="">
-        <SpecialCard msg="AZURE"/>
         <p class="font-bold text-center text-xl text-white">
-          Azure
+          AWS
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/azure.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          AZURE
+        </p>
+      </div>
+      <div 
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/js.svg" alt="">
@@ -97,7 +98,7 @@
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/python.svg" alt="">
@@ -106,25 +107,34 @@
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/react.svg" alt="">
         <p class="font-bold text-center text-xl text-white">
-          REACT
+          REACT JS
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
+        <img 
+        class="justify-center h-20 md:h-28" 
+        src="@/assets/vuejs.svg" alt="">
+        <p class="font-bold text-center text-xl text-white">
+          VUE JS
+        </p>
+      </div>
+      <div 
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/nodejs.svg" alt="">
         <p class="font-bold text-center text-xl text-white">
-          NODEJS
+          NODE JS
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/css3.svg" alt="">
@@ -133,7 +143,7 @@
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/html5.svg" alt="">
@@ -142,7 +152,7 @@
         </p>
       </div>
       <div 
-      class="flex flex-col">
+      class="flex flex-wrap flex-col mb-4">
         <img 
         class="justify-center h-20 md:h-28" 
         src="@/assets/bootstrap.svg" alt="">
@@ -150,8 +160,63 @@
           BOOTSTRAP
         </p>
       </div>
-
     </div>
+
+    <div>
+      <p 
+      class="mt-10 text-white text-xl text-center font-bold">
+        CONTACT
+      </p>
+      <div 
+      class="p-10 grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2">
+        <div 
+          class="p-2">
+          <h3 
+          class="text-start pb-4 text-white font-bold">
+            Drop Me a Message
+          </h3>
+          <p 
+          class="text-start mb-6 text-white ">
+            Let me know what I can help you with. Keep it simple and clear please.
+          </p>
+          <div
+          class=" text-white mb-6 flex flex-col">
+            <img src="" alt="">
+            <p>+233 546 383 716</p>
+          </div>
+        </div>
+
+        <div 
+        class="rounded-lg grid gap-2 p-6 bg-gradient-to-r from-blue-400 to-violet-900">
+          <input
+          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
+          type="text" placeholder="Name">
+          <input
+          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
+          type="text" placeholder="Email">
+          <input
+          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
+          type="text" placeholder="Message">
+          <input
+          class="rounded-lg text-lg bg-slate-800 p-2 "
+          type="submit" placeholder="Send">
+        </div>
+      </div>
+
+      <div 
+      class="p-10">
+        <hr>
+        <div 
+        class="gird grid-cols-3">
+          <img class="h-8 mt-4" src="@/assets/switch-access.svg" alt="">
+          <p>2024</p>
+        </div>
+      </div>
+    </div>
+
+    
+   
+    
 
     </div> 
   </div>
@@ -160,13 +225,14 @@
 <script>
 // @ is an alias to /src
 import SpecialNavBar from '@/components/SpecialNavBar.vue'
-import SpecialCard from '@/components/SpecialCard.vue'
+
 
 export default {
   name: 'PortfolioView',
+
   components: {
     SpecialNavBar,
-    SpecialCard,
+   
   },
 
 }

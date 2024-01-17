@@ -4,8 +4,7 @@
     <div 
     class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div>
-       <img class="h-7 md:h-12" src="@/assets/switch-access.svg" alt="">
-        
+       <img class="h-7 md:h-12" src="@/assets/switch-access.svg" alt=""> 
       </div>
       <div 
       class="sm:hidden md:hidden ">

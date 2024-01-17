@@ -8,10 +8,10 @@
 export default {
     name: 'SpecialCard',
 
-    Prop: {
-        msg: string
+    Props: {
+        msg: String,
 
-    }
+    },
 
 }
     
