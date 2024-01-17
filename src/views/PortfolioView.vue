@@ -194,12 +194,13 @@
           <input
           class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
           type="text" placeholder="Email">
+          <textarea 
+          class="rounded-lg text-lg bg-slate-800 h-18 p-4 " 
+          id="subject" name="subject" placeholder="Please write your message here." style="height:120px">
+          </textarea>
           <input
-          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-          type="text" placeholder="Message">
-          <input
-          class="rounded-lg text-lg bg-slate-800 p-2 "
-          type="submit" placeholder="Send">
+          class="rounded-lg text-lg text-white bg-green-600 p-2 "
+          type="submit" value = "submit">
         </div>
       </div>
 
