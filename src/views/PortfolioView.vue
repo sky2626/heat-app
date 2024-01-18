@@ -238,17 +238,16 @@
       class="p-10">
         <hr>
         <div 
-        class="flex flex-row gap-4 justify-center">
-          <figure 
-          class="mx-2">
-            <img class="h-8 mt-4" src="@/assets/switch-access.svg" alt="">
+        class="flex flex-row gap-4 mt-4 justify-center">
+          <figure>
+            <img class="h-8" src="@/assets/switch-access.svg" alt="logo img">
           </figure>
           <p 
-          class="text-neutral-700 mt-5">
+          class="text-neutral-700 ">
             2024 &#169; - All right reserved.
           </p>
           <figure 
-          class="flex flex-row gap-2 mt-4">
+          class="flex flex-row gap-2 ">
             <img class="h-8" src="@/assets/github.svg" alt="github img">
             <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
             <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
