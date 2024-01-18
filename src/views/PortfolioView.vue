@@ -202,7 +202,7 @@
             <img class="h-10 w-10" src="@/assets/mail.png" alt="">
             <a 
             class="mt-2 font-bold " 
-            href="alhassansalu1@gmail.com">
+            href="mailto:alhassansalu1@gmail.com">
               alhassansalu1@gmail.com
             </a>
           </div>
@@ -211,8 +211,8 @@
             <img class="h-10 w-10" src="@/assets/location.png" alt="">
             <a 
             class="mt-2 font-bold " 
-            href="alhassansalu1@gmail.com">
-              alhassansalu1@gmail.com
+            href="https://www.google.com/maps/@8.0598699,-1.7245588,16z?entry=ttu">
+              Kintampo, Ghana
             </a>
           </div>
         </div>
@@ -240,7 +240,11 @@
         <div 
         class="gird grid-cols-3">
           <img class="h-8 mt-4" src="@/assets/switch-access.svg" alt="">
-          <p>2024</p>
+          <p 
+          class="text-white - All right reserved.">
+            2024 &#169;
+          </p>
+          
         </div>
       </div>
     </div>
