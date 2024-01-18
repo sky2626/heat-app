@@ -189,9 +189,13 @@
             Let me know what I can help you with. Keep it simple and clear please.
           </p>
           <div
-          class=" text-white mb-6 flex flex-">
+          class=" text-white mb-6 flex flex-row gap-8">
             <img class="h-10 w-10" src="@/assets/call.png" alt="">
-            <a href="tel:+233546383716">+233-546-383-716</a>
+            <a 
+            class="mt-2 font-bold " 
+            href="tel:+233546383716">
+              +233-546-383-716
+            </a>
           </div>
         </div>
 
@@ -204,9 +208,8 @@
           class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
           type="text"  id="email" name="email" placeholder="Email">
           <textarea 
-          class="rounded-lg text-white text-lg bg-slate-800 h-18 p-4 " 
-          id="subject" name="subject" placeholder="Please write your message here" style="height:120px">
-          </textarea>
+          class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
+          id="subject" name="subject" placeholder="Please write your message here." style="height:120px"></textarea>
           <input
           class="rounded-lg text-lg text-white bg-green-600 p-2 "
           type="submit" value = "submit">
