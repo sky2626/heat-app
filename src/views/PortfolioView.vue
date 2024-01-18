@@ -202,8 +202,8 @@
             <img class="h-10 w-10" src="@/assets/mail.png" alt="">
             <a 
             class="mt-2 font-bold " 
-            href="tel:+233546383716">
-              +233-546-383-716
+            href="alhassansalu1@gmail.com">
+              alhassansalu1@gmail.com
             </a>
           </div>
           <div
