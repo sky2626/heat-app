@@ -245,7 +245,9 @@
             2024 &#169;
           </p>
           <figure>
-            <img class="h-8" src="@/assets/github.svg" alt="">
+            <img class="h-8" src="@/assets/github.svg" alt="github img">
+            <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
+            <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
           </figure>
         </div>
       </div>
