@@ -227,7 +227,7 @@
           type="text"  id="email" name="email" placeholder="Email" autocomplere="off" required>
           <textarea 
           class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
-          id="subject" name="subject" placeholder="Please write your message here." style="height:120px"></textarea>
+          id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
           <input
           class="rounded-lg text-lg text-white bg-green-600 p-2 "
           type="submit" value = "submit">
@@ -238,13 +238,17 @@
       class="p-10">
         <hr>
         <div 
-        class="gird grid-cols-3">
-          <img class="h-8 mt-4" src="@/assets/switch-access.svg" alt="">
+        class="flex flex-row gap-4 justify-center">
+          <figure 
+          class="mx-2">
+            <img class="h-8 mt-4" src="@/assets/switch-access.svg" alt="">
+          </figure>
           <p 
-          class="text-white - All right reserved.">
-            2024 &#169;
+          class="text-neutral-700 mt-5">
+            2024 &#169; - All right reserved.
           </p>
-          <figure>
+          <figure 
+          class="flex flex-row gap-2 mt-4">
             <img class="h-8" src="@/assets/github.svg" alt="github img">
             <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
             <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
