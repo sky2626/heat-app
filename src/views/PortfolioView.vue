@@ -64,202 +64,199 @@
 
     <div 
     class="flex flex-col">
-    <p 
-    class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">
-      EXPERIENCE
-    </p>
-    <div 
-    class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/aws.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          AWS
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/azure.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          AZURE
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/js.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          JAVASCRIPT
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/python.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          PYTHON
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/react.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          REACT JS
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/vuejs.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          VUE JS
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/nodejs.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          NODE JS
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/css3.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          CSS 3
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/html5.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          HTML 5
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/bootstrap.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          BOOTSTRAP
-        </p>
-      </div>
-      <div 
-      class="flex flex-wrap flex-col mb-4">
-        <img 
-        class="justify-center h-20 md:h-28" 
-        src="@/assets/tailwind-css.svg" alt="">
-        <p class="font-bold text-center text-xl text-white">
-          TAILWIND CSS
-        </p>
-      </div>
-    </div>
-
-    <div>
       <p 
-      class="mt-10 text-white text-xl text-center font-bold">
-        CONTACT
+      class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">
+        EXPERIENCE
       </p>
       <div 
-      class="p-10 grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2">
+      class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
         <div 
-          class="p-2">
-          <h3 
-          class="text-start pb-4 text-white font-bold">
-            Drop Me a Message
-          </h3>
-          <p 
-          class="text-start mb-6 text-white ">
-            Let me know what I can help you with. Keep it simple and clear please.
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/aws.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            AWS
           </p>
-          <div
-          class=" text-white mb-6 flex flex-row gap-8">
-            <img class="h-10 w-10" src="@/assets/call.png" alt="">
-            <a 
-            class="mt-2 font-bold " 
-            href="tel:+233546383716">
-              +233-546-383-716
-            </a>
-          </div>
-          <div
-          class=" text-white mb-6 flex flex-row gap-8">
-            <img class="h-10 w-10" src="@/assets/mail.png" alt="">
-            <a 
-            class="mt-2 font-bold " 
-            href="mailto:alhassansalu1@gmail.com">
-              alhassansalu1@gmail.com
-            </a>
-          </div>
-          <div
-          class=" text-white mb-6 flex flex-row gap-8">
-            <img class="h-10 w-10" src="@/assets/location.png" alt="">
-            <a 
-            class="mt-2 font-bold " 
-            v-bind:href="url">
-              Kintampo, Ghana
-            </a>
-          </div>
         </div>
-
         <div 
-        class="rounded-lg grid gap-2 p-6 lg:mx-8 bg-gradient-to-r from-blue-400 to-violet-900">
-          <input
-          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-          type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required>
-          <input
-          class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-          type="text"  id="email" name="email" placeholder="Email" autocomplere="off" required>
-          <textarea 
-          class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
-          id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
-          <input
-          class="rounded-lg text-lg text-white bg-green-600 p-2 "
-          type="submit" value = "submit">
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/azure.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            AZURE
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/js.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            JAVASCRIPT
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/python.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            PYTHON
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/react.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            REACT JS
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/vuejs.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            VUE JS
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/nodejs.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            NODE JS
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/css3.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            CSS 3
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/html5.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            HTML 5
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/bootstrap.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            BOOTSTRAP
+          </p>
+        </div>
+        <div 
+        class="flex flex-wrap flex-col mb-4">
+          <img 
+          class="justify-center h-20 md:h-28" 
+          src="@/assets/tailwind-css.svg" alt="">
+          <p class="font-bold text-center text-xl text-white">
+            TAILWIND CSS
+          </p>
         </div>
       </div>
 
-      <div 
-      class="p-10">
-        <hr>
+      <div>
+        <p 
+        class="mt-10 text-white text-xl text-center font-bold">
+          CONTACT
+        </p>
         <div 
-        class="flex flex-row gap-2 md:gap-4 mt-4 justify-center">
-          <figure>
-            <img class="h-8 " src="@/assets/switch-access.svg" alt="logo img">
-          </figure>
-          <p 
-          class="text-neutral-700 mt-1 ">
-            2024 &#169; - All right reserved.
-          </p>
-          <figure 
-          class="flex flex-row gap-2 ">
-            <img class="h-8" src="@/assets/github.svg" alt="github img">
-            <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
-            <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
-          </figure>
+        class="p-10 grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2">
+          <div 
+            class="p-2">
+            <h3 
+            class="text-start pb-4 text-white font-bold">
+              Drop Me a Message
+            </h3>
+            <p 
+            class="text-start mb-6 text-white ">
+              Let me know what I can help you with. Keep it simple and clear please.
+            </p>
+            <div
+            class=" text-white mb-6 flex flex-row gap-8">
+              <img class="h-10 w-10" src="@/assets/call.png" alt="">
+              <a 
+              class="mt-2 font-bold " 
+              href="tel:+233546383716">
+                +233-546-383-716
+              </a>
+            </div>
+            <div
+            class=" text-white mb-6 flex flex-row gap-8">
+              <img class="h-10 w-10" src="@/assets/mail.png" alt="">
+              <a 
+              class="mt-2 font-bold " 
+              href="mailto:alhassansalu1@gmail.com">
+                alhassansalu1@gmail.com
+              </a>
+            </div>
+            <div
+            class=" text-white mb-6 flex flex-row gap-8">
+              <img class="h-10 w-10" src="@/assets/location.png" alt="">
+              <a 
+              class="mt-2 font-bold " 
+              v-bind:href="url">
+                Kintampo, Ghana
+              </a>
+            </div>
+          </div>
+
+          <div 
+          class="rounded-lg grid gap-2 p-6 lg:mx-8 bg-gradient-to-r from-blue-400 to-violet-900">
+            <input
+            class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
+            type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required>
+            <input
+            class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
+            type="text"  id="email" name="email" placeholder="Email" autocomplere="off" required>
+            <textarea 
+            class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
+            id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
+            <input
+            class="rounded-lg text-lg text-white bg-green-600 p-2 "
+            type="submit" value = "submit">
+          </div>
+        </div>
+
+        <div 
+        class="p-10">
+          <hr>
+          <div 
+          class="flex flex-row gap-2 md:gap-4 mt-4 justify-center">
+            <figure>
+              <img class="h-8 " src="@/assets/switch-access.svg" alt="logo img">
+            </figure>
+            <p 
+            class="text-neutral-700 mt-1 ">
+              2024 &#169; - All right reserved.
+            </p>
+            <figure 
+            class="flex flex-row gap-2 ">
+              <img class="h-8" src="@/assets/github.svg" alt="github img">
+              <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
+              <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
+            </figure>
+          </div>
         </div>
       </div>
-    </div>
 
     
-   
-    
-
     </div> 
   </div>
 </template>
@@ -273,10 +270,18 @@ export default {
   data(){
     return{
       url: 'https://www.google.com/maps/@8.0598699,-1.7245588,16z?entry=ttu',
-      
+      age: 50,
     }
 
   },
+
+  methods: {
+    increase() {
+      this.age++
+    },
+    
+  },
+
   name: 'PortfolioView',
 
   components: {
