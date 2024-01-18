@@ -211,7 +211,7 @@
             <img class="h-10 w-10" src="@/assets/location.png" alt="">
             <a 
             class="mt-2 font-bold " 
-            href="https://www.google.com/maps/@8.0598699,-1.7245588,16z?entry=ttu">
+            v-bind:href="url">
               Kintampo, Ghana
             </a>
           </div>
@@ -238,12 +238,12 @@
       class="p-10">
         <hr>
         <div 
-        class="flex flex-row gap-4 mt-4 justify-center">
+        class="flex flex-row gap-2 md:gap-4 mt-4 justify-center">
           <figure>
-            <img class="h-8" src="@/assets/switch-access.svg" alt="logo img">
+            <img class="h-8 " src="@/assets/switch-access.svg" alt="logo img">
           </figure>
           <p 
-          class="text-neutral-700 ">
+          class="text-neutral-700 mt-1 ">
             2024 &#169; - All right reserved.
           </p>
           <figure 
@@ -270,12 +270,21 @@ import SpecialNavBar from '@/components/SpecialNavBar.vue'
 
 
 export default {
+  data(){
+    return{
+      url: 'https://www.google.com/maps/@8.0598699,-1.7245588,16z?entry=ttu',
+      
+    }
+
+  },
   name: 'PortfolioView',
 
   components: {
     SpecialNavBar,
    
   },
+
+  
 
 }
 </script>
