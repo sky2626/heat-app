@@ -255,7 +255,11 @@
           </div>
         </div>
       </div>
-
+      <hr>
+      <div 
+      class="flex flex-row">
+        learning
+      </div>
     
     </div> 
   </div>
