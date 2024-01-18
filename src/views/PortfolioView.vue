@@ -199,13 +199,13 @@
         class="rounded-lg grid gap-2 p-6 bg-gradient-to-r from-blue-400 to-violet-900">
           <input
           class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-          type="text" placeholder="Name">
+          type="text" id="full name" name="full Name" placeholder="Name">
           <input
           class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-          type="text" placeholder="Email">
+          type="text"  id="email" name="email" placeholder="Email">
           <textarea 
-          class="rounded-lg text-lg bg-slate-800 h-18 p-4 " 
-          id="subject" name="message" placeholder="Please write your message here." style="height:120px">
+          class="rounded-lg text-white text-lg bg-slate-800 h-18 p-4 " 
+          id="subject" name="subject" placeholder="Please write your message here" style="height:120px">
           </textarea>
           <input
           class="rounded-lg text-lg text-white bg-green-600 p-2 "
