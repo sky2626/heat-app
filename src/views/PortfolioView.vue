@@ -255,10 +255,23 @@
           </div>
         </div>
       </div>
+
       <hr>
       <div 
-      class="flex flex-row">
-        learning
+      class="flex flex-row text-center">
+        <div >
+          <p> {{ age }} </p>
+          <button 
+          v-on:click="increase"
+          class="bg-blue-300 p-6 text-lg text-blue-950 ">
+            increase +
+          </button>
+          <button 
+          v-on:click="age--"
+          class="bg-blue-300 p-6 text-lg text-blue-950 ">
+            decrease -
+          </button>
+        </div>
       </div>
     
     </div> 
