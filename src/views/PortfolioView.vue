@@ -23,7 +23,7 @@
       </div>
     </div>
     
-    <p class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">About Me</p>
+    <p class="text-white text-center mt-24 md:text-center text-xl my-4 font-bold">About Me</p>
     <div class="flex flex-col md:flex-row md:gap-4 md:justify-center ">
       <div class="w-auto">
         <img
@@ -58,12 +58,11 @@
               Contact Me
           </button>
         </div>
-
       </div>
     </div>
 
     <div 
-    class="flex flex-col">
+    class="flex mt-20 flex-col">
       <p 
       class="text-white text-center mt-8 md:text-center text-xl my-4 font-bold">
         EXPERIENCE
@@ -173,7 +172,7 @@
 
       <div>
         <p 
-        class="mt-10 text-white text-xl text-center font-bold">
+        class="mt-28 text-white text-xl text-center font-bold">
           CONTACT
         </p>
         <div 
@@ -248,15 +247,15 @@
             </p>
             <figure 
             class="flex flex-row gap-2 ">
-              <img class="h-8" src="@/assets/github.svg" alt="github img">
-              <img class="h-8" src="@/assets/linked-in.svg" alt="linked-in img">
-              <img class="h-8" src="@/assets/facebook.svg" alt="facebook img">
+              <img class="h-8" v-bind:href="gitgubUrl" src="@/assets/github.svg" alt="github img">
+              <img class="h-8" v-bind:href="linkedInUrl" src="@/assets/linked-in.svg" alt="linked-in img">
+              <img class="h-8" v-bind:href="fbUrl" src="@/assets/facebook.svg" alt="facebook img">
             </figure>
           </div>
         </div>
       </div>
 
-      <hr>
+     <!--  <hr>
       <div 
       class="flex flex-row text-center">
         <div >
@@ -272,7 +271,7 @@
             decrease -
           </button>
         </div>
-      </div>
+      </div> -->
     
     </div> 
   </div>
@@ -288,6 +287,10 @@ export default {
     return{
       url: 'https://www.google.com/maps/@8.0598699,-1.7245588,16z?entry=ttu',
       age: 50,
+      githubUrl: 'github.com/sky2626',
+      linkInUrl: 'linkedIn.com/alhassansalu',
+      fbUrl: 'facebook.com/alhassansalu35722'
+
     }
 
   },
