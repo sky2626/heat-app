@@ -220,16 +220,16 @@
           class="rounded-lg grid gap-2 p-6 lg:mx-8 bg-gradient-to-r from-blue-400 to-violet-900">
             <input
             class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-            type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required>
+            type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
             <input
             class="rounded-lg text-lg bg-slate-800 h-6 p-4 "
-            type="text"  id="email" name="email" placeholder="Email" autocomplere="off" required>
+            type="text"  id="email" name="email" placeholder="Email" autocomplere="off" required />
             <textarea 
             class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
             id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
             <input
             class="rounded-lg text-lg text-white bg-green-600 p-2 "
-            type="submit" value = "submit">
+            type="submit" value = "submit" />
           </div>
         </div>
 
